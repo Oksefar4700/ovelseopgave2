@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min JavaScript App</title>
+    <!--link til vores css fil.-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id = "app">
+        <!-- inputfeltet til at indtaste opgaverne. -->
+        <input type="text" id="opgave" placeholder="Indtast din opgave">
+        <!-- Vores knap der kalder funktionen tilføjOpgave. -->
+        <button onclick="tilføjOpgave()">Tilføj din opgave</button>
+        <!-- Dette er listen, hvor opgaverne bliver vist. -->
+        <ul id="opgaveListe"></ul>
+    </div>
+    <!-- Link til vores javascript. -->
+    <script src="script.js"></script>
+</body>
+</html>
